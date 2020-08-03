@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "677132476058",
+    "firebase_url": "https://daclass.firebaseio.com",
+    "project_id": "daclass",
+    "storage_bucket": "daclass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677132476058:android:e99a96be645bd1acf18923",
+        "android_client_info": {
+          "package_name": "com.three_minute_study"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677132476058-oho07b2mcuqdkotq9dbmg6rkah40u29d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA72Diny2iL5yJHpRVPesAjcKMmGzcWKfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677132476058-oho07b2mcuqdkotq9dbmg6rkah40u29d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
