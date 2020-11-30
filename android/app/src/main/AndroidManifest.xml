@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.three_minute_study">
+    package="com.ThreeMallStudy">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -8,24 +8,24 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
 
     <application
-      android:name=".MainApplication"
+      android:name="com.ThreeMallStudy.MainApplication"
       android:label="@string/app_name"
       android:icon="@mipmap/ic_launcher"
       android:allowBackup="true"
       android:theme="@style/AppTheme"
       android:debuggable="false"
-      tools:ignore="HardcodedDebugMode">
+      tools:ignore="HardcodedDebugMode"
+      android:usesCleartextTraffic="true">
       <activity
-        android:name=".MainActivity"
+        android:name="com.ThreeMallStudy.MainActivity"
         android:label="@string/app_name"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
         android:launchMode="singleTask"
-        android:windowSoftInputMode="adjustResize">
+        android:windowSoftInputMode="adjustResize"
+        android:exported="true">
       </activity>
         <activity
             android:name="com.zoontek.rnbootsplash.RNBootSplashActivity"

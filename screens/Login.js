@@ -39,7 +39,7 @@ export default class Login extends Component {
 
 
 
-    OneSignal.init("9be079ea-add8-470e-84c0-939258b7f960");
+    OneSignal.init("6b0ab107-e44f-44d2-9742-4b81f7413fff");
 
     OneSignal.addEventListener('received', this.onReceived);
     OneSignal.addEventListener('opened', this.onOpened);

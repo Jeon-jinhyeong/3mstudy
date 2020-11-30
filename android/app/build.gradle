@@ -97,7 +97,7 @@ def enableSeparateBuildPerCPUArchitecture = true
 /**
  * Run Proguard to shrink the Java bytecode in release builds.
  */
-def enableProguardInReleaseBuilds = false
+def enableProguardInReleaseBuilds = true
 
 /**
  * The preferred build flavor of JavaScriptCore.
@@ -130,7 +130,7 @@ android {
     }
 
     lintOptions {
-        checkReleaseBuilds false
+        checkReleaseBuilds true
         // Or, if you prefer, you can continue to check for errors in release builds,
         // but continue the build even when errors are found:
         abortOnError false
@@ -139,14 +139,14 @@ android {
 
 
     defaultConfig {
-        applicationId "com.three_minute_study"
+        applicationId "com.ThreeMallStudy"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 2
-        versionName "2.1"
-        multiDexEnabled true 
+        versionCode 8
+        versionName "8.1"
+        multiDexEnabled true
 
-        manifestPlaceholders = [onesignal_app_id               : "9be079ea-add8-470e-84c0-939258b7f960",
+        manifestPlaceholders = [onesignal_app_id               : "6b0ab107-e44f-44d2-9742-4b81f7413fff",
                                 onesignal_google_project_number: "REMOTE"]
     }
     splits {

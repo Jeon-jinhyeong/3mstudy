@@ -31,7 +31,7 @@ export default class WebView_Activity extends Component {
       setLoaded: false,
 
     };
-    OneSignal.init("9be079ea-add8-470e-84c0-939258b7f960");
+    OneSignal.init("6b0ab107-e44f-44d2-9742-4b81f7413fff");
 
     OneSignal.addEventListener('received', this.onReceived);
     OneSignal.addEventListener('opened', this.onOpened);
@@ -168,7 +168,9 @@ export default class WebView_Activity extends Component {
     // const unitId = 'ca-app-pub-8640206644623436/6595265495';
 
     return (
+      <View style={styles.container}>
         <WebView
+          style={styles.webview}
           ref = { webView => {this.webView.ref = webView; }}
 	        onNavigationStateChange={(navState) => {
             console.log(navState.url.slice(0,6)) 
@@ -208,14 +210,7 @@ export default class WebView_Activity extends Component {
             console.log('ERROR', err);
           }}
         />
-        /* <Banner
-          unitId={unitId}
-          size={'LARGE_BANNER'}
-          request={request.build()}
-          onAdLoaded={() => {
-            console.log('Advert loaded');
-          }}
-        /> */
+      </View>
     );
   }
 
@@ -226,5 +221,14 @@ export default class WebView_Activity extends Component {
     this.webView.ref.postMessage("리액트에서 보내는 메세지입니다.")
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+      flex: 1
+  },
+  webview: {
+      flex: 1
+  }
+});
 
 YellowBox.ignoreWarnings(['source.uri']);

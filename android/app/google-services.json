@@ -1,39 +1,77 @@
 {
   "project_info": {
-    "project_number": "677132476058",
-    "firebase_url": "https://daclass.firebaseio.com",
-    "project_id": "daclass",
-    "storage_bucket": "daclass.appspot.com"
+    "project_number": "57886542087",
+    "firebase_url": "https://study3m-5a51d.firebaseio.com",
+    "project_id": "study3m-5a51d",
+    "storage_bucket": "study3m-5a51d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:677132476058:android:e99a96be645bd1acf18923",
+        "mobilesdk_app_id": "1:57886542087:android:fdce21fcc1d881add35da2",
         "android_client_info": {
-          "package_name": "com.three_minute_study"
+          "package_name": "com.ThreeMallStudy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "677132476058-oho07b2mcuqdkotq9dbmg6rkah40u29d.apps.googleusercontent.com",
+          "client_id": "57886542087-d6jccnh06j9vqrc1b16jd1i9vhb4iata.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ThreeMallStudy",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "57886542087-k1k67rlbv02btn312epkjeclqn9qp3dt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA72Diny2iL5yJHpRVPesAjcKMmGzcWKfE"
+          "current_key": "AIzaSyB7qVMJXWCxj5gS0fEqSDxk1RwXGave2FQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "677132476058-oho07b2mcuqdkotq9dbmg6rkah40u29d.apps.googleusercontent.com",
+              "client_id": "57886542087-k1k67rlbv02btn312epkjeclqn9qp3dt.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57886542087:android:b4fb4e9a55b8add9",
+        "android_client_info": {
+          "package_name": "com.study3m.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57886542087-k1k67rlbv02btn312epkjeclqn9qp3dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7qVMJXWCxj5gS0fEqSDxk1RwXGave2FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57886542087-k1k67rlbv02btn312epkjeclqn9qp3dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-6187132252296235~9209663774"
     }
   ],
   "configuration_version": "1"

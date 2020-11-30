@@ -1,4 +1,4 @@
-package com.three_minute_study;
+package com.ThreeMallStudy;
 
 import android.os.Bundle;
 
